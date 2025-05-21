@@ -8,10 +8,6 @@ const Gallery = () => {
       alt: "CreateStudio 3D - Personajes animados"
     },
     {
-      src: "/lovable-uploads/6748fd52-83b3-43e4-8731-87e9b7034dcd.png", 
-      alt: "CreateStudio 3D - Escenas animadas"
-    },
-    {
       src: "/lovable-uploads/9956d921-946f-4b6f-a308-a5e099b119e1.png", 
       alt: "CreateStudio 3D - Ejemplo de uso"
     }
@@ -30,7 +26,7 @@ const Gallery = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
           {images.map((image, index) => (
             <div 
               key={index} 

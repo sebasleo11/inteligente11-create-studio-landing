@@ -1,5 +1,5 @@
 
-import { Check } from "lucide-react";
+import { Check, Gift } from "lucide-react";
 
 const Benefits = () => {
   const benefits = [
@@ -28,9 +28,18 @@ const Benefits = () => {
   return (
     <section className="section bg-white px-4">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-center gradient-text mb-12">
+        <h2 className="text-center gradient-text mb-6">
           Potencia tu comunicación con animaciones profesionales
         </h2>
+        
+        <div className="bg-gradient-to-r from-brand-blue/10 to-brand-purple/10 p-4 rounded-lg mb-10 shadow-sm">
+          <div className="flex items-center gap-3 justify-center">
+            <Gift className="text-brand-purple" size={24} />
+            <p className="text-lg font-medium text-gray-800">
+              🎁 Accedé desde mi link y recibí una <span className="font-bold">masterclass GRATIS</span> para empezar sin perder tiempo. Te guío paso a paso para crear tu primera animación.
+            </p>
+          </div>
+        </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {benefits.map((benefit, index) => (

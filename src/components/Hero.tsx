@@ -1,8 +1,9 @@
 
-import { MessageCircle } from "lucide-react";
+import { MessageCircle, ArrowRight } from "lucide-react";
 
 const Hero = () => {
   const whatsappLink = "https://wa.me/5491140930260?text=Hola!%20Estoy%20interesado%20en%20CreateStudio%20lifetime%20que%20vi%20en%20tu%20web.%20¿Me%20podés%20pasar%20más%20info%3F%20Gracias!";
+  const affiliateLink = "https://aff.vidello.com/40598/160327";
 
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-blue-50 to-purple-50 pt-12 pb-16 md:pt-16 md:pb-24 px-4">
@@ -26,6 +27,16 @@ const Hero = () => {
               >
                 <MessageCircle size={20} />
                 ¡Quiero más info por WhatsApp!
+              </a>
+              
+              <a
+                href={affiliateLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white text-brand-purple font-bold py-3 px-6 rounded-full hover:shadow-lg transition-all duration-300 flex items-center justify-center gap-2"
+              >
+                Acceder a la Oferta de por Vida
+                <ArrowRight size={20} />
               </a>
             </div>
           </div>

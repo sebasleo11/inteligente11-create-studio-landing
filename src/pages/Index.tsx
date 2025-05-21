@@ -4,6 +4,7 @@ import CTASection from "@/components/CTASection";
 import FAQ from "@/components/FAQ";
 import Gallery from "@/components/Gallery";
 import Hero from "@/components/Hero";
+import SocialLinks from "@/components/SocialLinks";
 import Testimonials from "@/components/Testimonials";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
@@ -24,6 +25,7 @@ const Index = () => {
         <Gallery />
         <Testimonials />
         <FAQ />
+        <SocialLinks />
         <CTASection />
       </main>
       
