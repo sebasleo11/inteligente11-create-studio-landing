@@ -1,5 +1,5 @@
 
-import { ArrowRight, MessageCircle } from "lucide-react";
+import { MessageCircle } from "lucide-react";
 
 const Hero = () => {
   const whatsappLink = "https://wa.me/5491140930260?text=Hola!%20Estoy%20interesado%20en%20CreateStudio%20lifetime%20que%20vi%20en%20tu%20web.%20¿Me%20podés%20pasar%20más%20info%3F%20Gracias!";
@@ -33,7 +33,7 @@ const Hero = () => {
           <div className="relative md:ml-auto">
             <div className="relative w-full h-[320px] sm:h-[400px] md:h-[480px] animate-float">
               <img
-                src="/1080 x 1080 – V3.png"
+                src="/lovable-uploads/0f857312-d8ee-4ee2-9f11-a63f12fe49bf.png"
                 alt="CreateStudio 3D - Software de animación"
                 className="w-full h-full object-contain rounded-lg shadow-lg"
               />

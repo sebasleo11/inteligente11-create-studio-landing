@@ -4,15 +4,15 @@ import { Images } from "lucide-react";
 const Gallery = () => {
   const images = [
     {
-      src: "/1200 x 628 – V2.png", 
+      src: "/lovable-uploads/9468619c-d545-428e-a8e9-2caaf976a93c.png", 
       alt: "CreateStudio 3D - Personajes animados"
     },
     {
-      src: "/1200 x 628 – V3.png", 
+      src: "/lovable-uploads/6748fd52-83b3-43e4-8731-87e9b7034dcd.png", 
       alt: "CreateStudio 3D - Escenas animadas"
     },
     {
-      src: "/1200 x 628- V1.png", 
+      src: "/lovable-uploads/9956d921-946f-4b6f-a308-a5e099b119e1.png", 
       alt: "CreateStudio 3D - Ejemplo de uso"
     }
   ];
