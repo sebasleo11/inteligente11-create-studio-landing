@@ -19,7 +19,7 @@ const Gallery = () => {
         <div className="text-center mb-10">
           <div className="inline-flex items-center justify-center gap-2 mb-4">
             <Images className="text-brand-purple" size={24} />
-            <h2 className="gradient-text">Ejemplos increíbles</h2>
+            <h2 className="gradient-text">Creaciones increíbles</h2>
           </div>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Mira lo que podés crear con CreateStudio 3D, ¡sin conocimientos técnicos!

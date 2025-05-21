@@ -1,5 +1,5 @@
 
-import { Youtube, Instagram, Facebook, Globe, MessageCircle } from "lucide-react";
+import { Youtube, Instagram, Globe, MessageCircle } from "lucide-react";
 import TiktokIcon from "./icons/TiktokIcon";
 
 const SocialLinks = () => {
@@ -29,12 +29,6 @@ const SocialLinks = () => {
       url: "https://www.tiktok.com/@inteligente..11"
     },
     {
-      name: "Facebook",
-      handle: "Sebas Acuña",
-      icon: <Facebook className="text-blue-700" size={24} />,
-      url: "https://www.facebook.com/sebas.acuna"
-    },
-    {
       name: "Web Oficial",
       handle: "inteligente11.com",
       icon: <Globe className="text-brand-blue" size={24} />,
@@ -47,7 +41,7 @@ const SocialLinks = () => {
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-center gradient-text mb-8">Mis redes y contacto directo</h2>
         
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
           {socialLinks.map((social, index) => (
             <a 
               key={index}
